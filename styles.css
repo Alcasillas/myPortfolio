@@ -1,0 +1,150 @@
+
+
+#title{
+  background-color: lemonchiffon;}
+
+  .container-fluid{
+    padding: 3% 7%;
+    padding-bottom: 10%;
+  }
+
+
+
+h1{
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: lemonchiffon;
+  font-size: 4rem;
+  line-height: 1.5;
+  background-color: rgb(187, 157, 118);
+  padding: 5%;
+  padding-left: 10%;
+}
+
+h2{
+  color: rgb(116, 97, 71);
+  font-family: 'montserrat';
+  font-size: 1.5;
+  font-weight: bold;
+}
+
+h3{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 3rem;
+  color: lemonchiffon;
+}
+
+h4{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: lemonchiffon;
+}
+
+h5{
+  color:rgb(116, 97, 71) ;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+  color: rgb(116, 97, 71);
+  font-family: 'Times New Roman', Times, serif;
+  padding: 3%;
+
+}
+
+
+
+
+/* navigation bar */
+.navbar{
+  padding:0.5rem;
+  background-color:rgb(187, 157, 118);
+  color: lemonchiffon;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(187, 157, 118)
+}
+
+.navbar-item {
+  padding:0 18px;
+}
+
+.nav-link{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2 rem;
+  color: rgb(187, 157, 118);
+}
+
+
+/* Images */
+
+.title-image{
+  width: 95.2%;
+  transform: rotate(0deg);
+  position: absolute;
+}
+
+.resume-image{
+  width: 130%;
+  padding-top: 27%;
+  
+  
+}
+
+.gallery-image{
+  width: 100%;
+  height: auto;
+  
+}
+
+
+.feature-box{
+  text-align: left;
+  padding: 3%;
+  padding-left: 10%;
+  background-color: rgb(187, 157, 118);
+}
+
+.icon{
+  color:rgb(187, 157, 118);
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color:rgb(187, 157, 118)
+}
+
+
+
+#press{
+  background-color: rgb(187, 157, 118);
+  text-align: center;
+}
+
+
+/*footer section*/
+
+#footer{
+  text-align: center;
+  background-color: white;
+}
+
+
+/* media query section */
+
+@media (max-width: 1028px){
+
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position:static;
+    transform: rotate(0);
+  }
+}
